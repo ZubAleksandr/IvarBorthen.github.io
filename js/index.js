@@ -2,6 +2,8 @@ var tryg = {};
 		tryg.servers = {},
 		tryg.form = {},
 		tryg.ui = {};
+		tryg.msg = {};
+
 
 // variables
 		tryg.servers.url = "http://smp1.aws.keyteq.no:9844/ioms/customers/tryg/tryg55plus/landingsside",
@@ -15,26 +17,10 @@ tryg.log = function(logline){
 	}
 }
 
-tryg.xhr = function(){
-	var payload = '';
-	var xhr = new XMLHttpRequest();
-	xhr.open('post|get',URL, true|false);
-	xhr.send(payload);
-	xhr.onreadystatechange = (function(){
-		//DO NOT REMOVE THIS, SUCKER! WAY TOO MYCH TIME SPENT LOOKING FOR AN ERROR!!
-		// check for state 4, and run if 200
-		if (xhr.readyState==4 && xhr.status==200) {
-			var response = JSON.parse(xhr.responseText);
-			//do more stuff
-		}
-	});
-}
-
-
 ////////////////////
 // eventlisteners //
 
-tryg.ui.fullname = document.getElementById('fullname').addEventListener('blur', function(event){
+tryg.ui.fullname = document.getElementById('survey-name').addEventListener('blur', function(event){
 	// check if form is filled
 	if (this.value != "") {
 		ga('send', 'event', {
@@ -42,10 +28,12 @@ tryg.ui.fullname = document.getElementById('fullname').addEventListener('blur', 
 			eventAction: 'name',
 			eventLabel: 'tryg55+.no'
 		});
+		// update tryg message
+		tryg.msg.user.name = this.value;
 	}
 });
 
-tryg.ui.email = document.getElementById('email').addEventListener('blur', function(event){
+tryg.ui.email = document.getElementById('survey-phone').addEventListener('blur', function(event){
 	// check if form is filled
 	if (this.value != "") {
 		ga('send', 'event', {
@@ -53,14 +41,55 @@ tryg.ui.email = document.getElementById('email').addEventListener('blur', functi
 			eventAction: 'email',
 			eventLabel: 'tryg55+.no'
 		});
+		// update tryg message
+		tryg.msg.user.phone = this.value;
 	}
 });
 
-tryg.ui.submitter = document.getElementById('submit').addEventListener('click', function(event){
-	// send GA event
-	event.preventDefault;
-	console.log()
-	ga('send','event','submit','tryg55+.no');
+tryg.ui.email = document.getElementById('survey-email').addEventListener('blur', function(event){
+	// check if form is filled
+	if (this.value != "") {
+		ga('send', 'event', {
+			eventCategory: 'form',
+			eventAction: 'email',
+			eventLabel: 'tryg55+.no'
+		});
+		// update tryg message
+		tryg.msg.user.email = this.value;
+	}
 });
 
-tryg.log('jau');
+
+$('#quiz').bind('submit', function(event) {
+	// event.preventDefault;
+  // var elements = this.elements;
+	// tryg.log(elements);
+});
+
+tryg.ui.contactSubmit = document.getElementById('quiz').addEventListener('submit', function(event){
+	// send GA event
+	event.preventDefault();
+	// var elements = document.getElementById('#quiz').elements;
+	// tryg.log(elements);
+	tryg.xhr();
+	console.log('jau');
+	ga('send','event','submit','tryg55+.no');
+  // Hide form and show thankyou
+  $('#survey-form-container').hide();
+  $('#survey-form-thankyou').fadeIn(200);
+  return false;
+});
+
+$('#quiz [name]').click(function(event){
+	tryg.msg.quiz[this.name] = this.value;
+	console.log(this.value,this.name, this.id);
+	console.log(tryg.msg.quiz);
+
+});
+
+tryg.ui.quizSubmit = document.getElementById('callme-submit').addEventListener('click', function(event){
+	// send GA event
+	event.preventDefault;
+
+	ga('send','event','submit','tryg55+.no');
+});

@@ -4,157 +4,409 @@
 		<meta charset="utf-8">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 		<title>Tryg 55+ Helseforsikring</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="css/app.css">
 	</head>
-	<body>
-  <div style="max-width:320px; margin:-60px auto 0;">
-    <div class="scrollDown" style="position:relative; z-index:999; top: 775px; width:320px; margin-left: auto; margin-right: auto; height: 60px;"></div>
-  </div>
-  <div style="max-width:320px; margin:0 auto;">
-    <img src="assets/skissebilder/toppen.png" />
-  </div>
-  <div style="max-width:320px; margin:0 auto;">
-    <img src="assets/skissebilder/s_t_1.png" />
-  </div>
-  <div style="max-width:320px; margin:0 auto; cursor:pointer;" id="morecontentbtn">
-    <img src="assets/skissebilder/s_t_1_more.png" />
-  </div>
-  <div style="max-width:320px; margin:0 auto; display:none;" id="morecontent">
-    <div class="scrollDown" style="position:relative; z-index:999; top: 570px; width:320px; margin-top: -60px; height: 60px;"></div>
-    <img src="assets/skissebilder/s_t_1_content.png" />
-  </div>
-  <div style="max-width:320px; margin:-60px auto 0;">
-    <div class="scrollDown" style="position:relative; z-index:999; top: 1350px; width:320px; margin-left: auto; margin-right: auto; height: 60px;"></div>
-  </div>
-  <div style="max-width:320px; margin:-120px auto 0;" class="scrollTop">
-    <div style="position:relative; z-index:999; top: 3900px; width:320px; margin-left: auto; margin-right: auto; height: 120px;"></div>
-  </div>
-  <div style="max-width:320px; margin:0 auto;">
-    <img src="assets/skissebilder/therest.png" />
-  </div>
-		<!--
+	<body id="firstElement" class="hidden">
+    <div class="floater" id="floater">
+      <h1>
+        Nyhet: Tryg 55+ helseforsikring – skreddersydd for deg mellom 55 og 80 år.
+      </h1>
+      <h3>
+        Når man passerer 55 år øker sjansene for at man får noen ”vonter”. Heldigvis har vi et velfungerende helsevesen i Norge. Likevel ser vi at mange bekymrer seg, både for å bli syk, men også for hvordan de blir tatt i mot av helsevesenet og NAV.
+      </h3>
+      <p>
+        Vær med i vår uhøytidelige undersøkelse og få du gratis tilgang til døgnåpen legetjeneste i 3 mnd. (denne tjenesten er alltid inkludert i Tryg 55+ hvis du senere skulle være interessert i produktet).
+      </p>
+      <button data-scroller="#question-section" class="primary-btn" id="scrollToSurvey">
+        <i class="material-icons">arrow_downward</i><span>Ta undersøkelsen</span>
+      </button>
+    </div>
     <div class="row" id="header">
-			<div class="small-4 large-2 columns" id="logo">
-				<img src="assets/Tryg_Red_2D_RGB.svg" alt="" />
-			</div>
+			<img src="assets/Tryg_Red_2D_RGB.svg" alt="" />
 		</div>
-
-		<div class="row">
-			<div class="column small-12">
-				<div class="hotSpots" id="hotspotImage">
-          <img src="assets/person.svg" />
-				</div>
-				<div id="hotspotContent">
-
-				</div>
+    <div>
+      <img style="width:100%" src="assets/front_image.png"  />
+      <img id="imagetag" src="assets/image_tag.svg"  />
+    </div>
+		<!-- section introduction -->
+		<section class="grey" data-animatewheninview>
+      <div class="frontpage-image">
+        <div class="frontpage-stamp">
+        </div>
+      </div>
+			<div>
+				<h1>
+					Helseforsikring for deg mellom 55 og 80 år.
+				</h1>
+				<p class="ingress">
+					Når man har passert 55 år øker sjansene for at man får noen ”vonter”. Med Tryg 55 + er du sikker på å ikke havne i helsekø hvis du skulle bli syk.
+				</p>
+				<p>
+					Å få raskest mulig behandling er viktig for at du skal komme tilbake til et aktivt og friskt liv så snart som mulig.
+				</p>
+				<button data-scroller="#scrollDownAnchor" class="primary-btn">
+					<i class="material-icons">arrow_downward</i><span>Sjekk pris</span>
+				</button>
 			</div>
-		</div>
+		</section>
 
-		<div class="row">
-			<div class="column panel red">
-				<a href="#">lukk</a>
-				<h3 class="ingress">
-					Bli med i vår uhøytidelige undersøkelse og få Legehjelpen Alltid Åpen gratis i 3 mnd.
-				</h3>
-				<a href="#quiz" class="button">Bli med!</a>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="column">
-				<p>Nyhet!</p>
-				<h1>Tryg 55+ Helseforsikring</h1>
-				<p>Når man passerer 55 år øker sjansene for at får noen «onter». Heldigvis har vi et velfungerende helsevesen i Norge og det meste av behandling dekkes av det offentlige. Likevel ser vi at mange bekymrer seg, både for å bli syk, men også for hvordan de blir tatt i mot av helsevesenet og NAV.</p>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="column small-12 medium-9 medium-centered large-6 quiz">
-				<div class="row">
-					<div class="question">Hva er du mest bekymret for hvis du skulle få behov for en enkel operasjon. Ventetiden eller selve operasjonen?</div>
-					<div class="answer button hollow expanded">Operasjon</div>
-					<div class="answer button hollow active expanded">Ventetiden</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row"><img src="" alt="" class="small-12 large-6 large-offset-3 columns"></div>
-
-
-		<div class="row">
-			<div class="small-12 medium-6 large-3 columns">
-				<h3>Unique selling point</h3>
-				<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. </p>
+		<!-- section salespoints -->
+		<section data-animatewheninview>
+			<div class="salespoint">
+        <i class="material-icons">check</i>
+				<div>
+  				<h2>
+  					Best i markedet: Garantert konsultasjon hos spesialist innen 10 virkedager!
+  				</h2>
+  				<button class="btn-toggleMore" data-linktext="Les mer om rask behandling"></button>
+  				<div class="sales-content">
+            I tillegg til at du kommer raskt til spesialist for konsultasjon/diagnose er du også sikret å komme raskt til behandling enten det er enkle operasjoner, annen legehjelp, fysioterapi, akupunktur eller psykologhjelp som skal til for å få deg tilbake i aktivitet.
+            <br /><br /><a href="#" data-scroller="#hotspotImage">Her</a> har vi samlet noen av de vanligste plagene ulike aldersgrupper over 55 er utsatt for og sammenlignet hvor lang tid behandlingen tar med Tryg 55 + helseforsikring, sammenlignet med det offentlige helsevesenet.
+  				</div>
+        </div>
 			</div>
 
-			<div class="small-12 medium-6 large-3 columns">
-				<h3>Unique selling point</h3>
-				<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. </p>
+			<div class="salespoint">
+        <i class="material-icons">check</i>
+				<div>
+          <h2>
+  					Legehjelp hele døgnet!
+  				</h2>
+  				<button class="btn-toggleMore" data-linktext="Les mer om Legehjelpen Alltid Åpen"></button>
+  				<div class="sales-content">
+            <i>Legehjelpen Alltid Åpen</i> er en telefontjeneste der du kan snakke med erfarne sykepleiere og leger når som helst hele døgnet. Her får du råd om hva du skal gjøre i den aktuelle situasjonen og kan få henvisning til spesialist. Du kan også be om råd når du er bekymret for andre i familien. All informasjon du gir <i>Legehjelpen Alltid åpen</i> håndteres konfidensielt, og vil ikke bli videreformidlet til Tryg eller andre.
+  				</div>
+        </div>
 			</div>
 
-			<div class="small-12 medium-6 large-3 columns">
-				<h3>Unique selling point</h3>
-				<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. </p>
+			<div class="salespoint">
+        <i class="material-icons">check</i>
+				<div>
+  				<h2>
+  					Hjelp til å navigere i helsevesenet og NAV
+  				</h2>
+  				<button class="btn-toggleMore" data-linktext="Slik hjelper vi deg"></button>
+  				<div class="sales-content">
+  					Norge har et fantastisk helsevesen og velferdssystem, men det kan være kronglete å finne utav. Vi hjelper deg å finne ut av mulighetene og rettighetene dine. Vi sørger for at du blir sendt til rett behandling, kan undersøke hvilket sykehus som har kortest ventetid eller best spesialkompetanse på det aktuelle problemet.
+  				</div>
+        </div>
 			</div>
 
-			<div class="small-12 medium-6 large-3 columns">
-				<h3>Unique selling points</h3>
-				<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. </p>
+			<div class="salespoint">
+        <i class="material-icons">check</i>
+				<div>
+  				<h2>
+  					Økonomisk støtte hvis du trenger hjelp i hjemmet
+  				</h2>
+  				<button class="btn-toggleMore" data-linktext="Les mer om økonomisk støtte"></button>
+  				<div class="sales-content">
+            Hvis du får et kommunalt vedtak om hjemmehjelp eller hjemmesykepleier, får du en engangsutbetaling fra oss i tillegg. Pengene kan du bruke til akkurat det du vil.
+  				</div>
+        </div>
 			</div>
-		</div>
 
-		<div class="row">
-			<div class="small-10 medium-3 large-2 columns small-centered">
-				<button class="button expanded">Beregn pris </button>
+			<div class="salespoint">
+        <i class="material-icons">check</i>
+				<div>
+  				<h2>
+  					God dekning ved behandling
+  				</h2>
+  				<button class="btn-toggleMore" data-linktext="Les mer om dekning ved behandling"></button>
+  				<div class="sales-content">
+  					<ul>
+  						<li>
+  							Undersøkelse og behandling hos legespesialist samt én kontroll etter avsluttet behandling
+  						</li>
+  						<li>
+  							Dagkirurgi på private sykehus (operasjon hvor pasienten skrives inn og ut av sykehuset samme dag)
+  						</li>
+  						<li>
+  							Fysikalsk behandling: fysioterapi, manuellterapeut, kiropraktor, naprapat og klassisk akupunktør
+  						</li>
+  						<li>
+  							Psykolog og krisehjelp
+  						</li>
+  					</ul>
+  				</div>
+        </div>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="small-12 medium-10 large-12 small-centered columns">
-				<h3>Få tilgang til døgnåpen legehjelp i 3 mnd</h3>
+		</section>
+		<section data-animatewheninview>
+      <div class="hotSpotsControllers">
+        <div id="hotspotControllerPrev">
+          <i class="material-icons">arrow_backwards</i>
+          <span id="hotspotControllerTextPrev">
+          </span>
+        </div>
+        <div id="hotspotControllerNext">
+          <i class="material-icons">arrow_forward</i>
+          <span id="hotspotControllerTextNext">
+          </span>
+        </div>
+      </div>
+			<div class="row">
+        <div class="col-2">
+          <div class="hotSpots" id="hotspotImage">
+            <img src="assets/person.svg" />
+          </div>
+        </div>
+        <div class="col-2">
+          <div id="hotspotContent"></div>
+        </div>
+      </div>
+		</section>
+		<section data-animatewheninview>
+			<div class="warning">
+				<h1 class="no-margin-bottom">Viktig å vite</h1>
+				<h3 class="no-margin-top">Denne forsikringen dekker ikke behandling av kreft.</h3>
+				<p>
+					Vi mener at kreftpasienter får god behandling og oppfølging ved våre offentlige sykehus. Husk at vi likevel hjelper deg den første tiden, frem til diagnosen er stilt.
+				</p>
+        <p>
+          Du kan tegne forsikringen fra fylte 55 til 75 år, og du kan beholde den til du er 80 år.
+        </p>
 			</div>
-		</div>
+		</section>
+		<section data-animatewheninview>
+      <div>
+        <button data-scroller="#scrollDownAnchor" class="primary-btn">
+          <i class="material-icons">arrow_downward</i><span>Sjekk pris</span>
+        </button>
+      </div>
+		</section>
 
-		<div class="row">
-			<div class="small-12 medium-8 medium-offset-2 columns questions">
-				<form action="" id="quiz">
-					<h3 class="question">Hva gruer du deg mest til om du blir syk?</h2>
-					<ul>
-						<li><label for="quiz-1"><input type="radio" name="grue" id="quiz-1">Operasjonen</li></label>
-						<li><label for="quiz-2"><input type="radio" name="grue" id="quiz-2">Den lange ventetiden til operasjon</li></label>
-					</ul>
-				</form>
+		<!-- Survey -->
+		<section class="red" id="question-section" data-animatewheninview>
+			<div class="receipt" id="survey-form-thankyou" style="display:none;">
+				<h1>Takk!</h1>
+				<h3>Om litt får du en epost med beskrivelse av hvordan du får tilgang til døgnåpen legehjelp i 3 mnd.</h3>
 			</div>
-		</div>
+      <div id="survey-form-container" data-animatewheninview>
+        <div class="survey">
+          <h1>
+    				Vær med i vår uhøytidelige undersøkelse
+    			</h1>
+    			<h3>
+    				og få gratis tilgang til døgnåpen legetjeneste i 3 mnd.
+    			</h3>
+        </div>
+  			<form action="#0" id="quiz">
+    			<div class="questions-container">
+    				<!-- Question 1 out of 4 -->
+    				<div class="question-block">
+    					<p class="pre-title">
+    						Spørsmål 1 av 4:
+    					</p>
+    					<p class="question">
+    						Er du bekymret for lang ventetid i helsevesenet? (feks. hvis du skulle trenge en enkel operasjon).
+    					</p>
+    					<div class="answers">
+    						<div class="answer-btn">
+    							<label for="q1a">
+    								<input type="radio" name="q1" id="q1a" value="1">
+    								Ja, enkle operasjoner har ofte lang ventetid
+    							</label>
+    						</div>
+    						<div class="answer-btn">
+    							<label for="q1b">
+    								<input type="radio" name="q1" id="q1b" value="0">
+    								Nei, det får ta den tiden det tar
+    							</label>
+    						</div>
+    					</div>
+    				</div>
+    				<!-- Question 2 out of 4 -->
+    				<div class="question-block">
+    					<p class="pre-title">
+    						Spørsmål 2 av 4:
+    					</p>
+    					<p clas="question">
+    						Synes du det kan være vanskelig å komme til til fastlegen din?
+    					</p>
+    					<div class="answers">
+    						<div class="answer-btn">
+    							<label for="q2a">
+    								<input type="radio" name="q2" id="q2a" value="1">
+    								Ja, det kan være vanskelig å komme til når man trenger det
+    							</label>
+    						</div>
+    						<div class="answer-btn">
+    							<label for="q2b">
+    								<input type="radio" name="q2" id="q2b" value="0">
+    								Nei, det går som regel greit.
+    							</label>
+    						</div>
+    					</div>
+						</div>
 
-		<div class="row contact">
-			<div class="small-12 large-10 large-offset-1 columns">
-				<form>
-					<label for="fullname">Hva heter du?
-						<input type="text" id="fullname">
-					</label>
-					<label for="fullname">Hva er eposten din?
-						<input type="text" id="email">
-					</label>
+    				<!-- Question 3 out of 4 -->
+    				<div class="question-block">
+    					<p class="pre-title">
+    						Spørsmål 3 av 4:
+    					</p>
+    					<p clas="question">
+    						Er du bekymret for å bli inaktiv mens du venter på behandling?
+    					</p>
+    					<div class="answers">
+    						<div class="answer-btn">
+    							<label for="q3a">
+    								<input type="radio" name="q3" id="q3a" value="1">
+    								Ja, inaktivitet fører gjerne med seg flere problemer
+    							</label>
+    						</div>
+    						<div class="answer-btn">
+    							<label for="q3b">
+    								<input type="radio" name="q3" id="q3b" value="0">
+    								Nei, jeg liker meg på sofaen.
+    							</label>
+    						</div>
+    					</div>
+						</div>
 
-				</form>
-
+    				<!-- Question 4 out of 4 -->
+    				<div class="question-block">
+    					<p class="pre-title">
+    						Spørsmål 4 av 4:
+    					</p>
+    					<p clas="question">
+    						Synes du det er vanskelig å navigere i helsevesenet?
+    					</p>
+    					<div class="answers">
+    						<div class="answer-btn">
+    							<label for="q4a">
+    								<input type="radio" name="q4" id="q4a" value="1">
+    								Ja, det er som regel mange skjema som skal fylles ut og mye å passe på
+    							</label>
+    						</div>
+    						<div class="answer-btn">
+    							<label for="q4b">
+    								<input type="radio" name="q4" id="q4b" value="0">
+    								Nei, jeg oppfatter helsevesenet og NAV som oversiktlig og greit
+    							</label>
+    						</div>
+    					</div>
+						</div>
+  				</div>
+		      <div>
+	  				<div class="form-group">
+	  			    <label for="survey-name">Ditt navn</label>
+	  			    <input type="text" class="form-control" id="survey-name" placeholder="Ditt navn">
+	  			  </div>
+	  				<div class="form-group">
+	  			    <label for="survey-phone">Mobilnummer</label>
+	  			    <input type="tel" class="form-control" id="survey-phone" placeholder="Ditt mobilnummer">
+	  			  </div>
+	  				<div class="form-group">
+	  			    <label for="survey-email">Epost adresse</label>
+	  			    <input type="email" class="form-control" id="survey-email" placeholder="Din epostadresse">
+	  			  </div>
+	  				<div class="checkbox">
+	  			    <label>
+	  			      <input type="checkbox"> Ja, jeg vil gjerne motta mer informasjon om Tryg 55+
+	  			    </label>
+	  			  </div>
+	  				<div class="checkbox">
+	  			    <label>
+	  			      <input type="checkbox"> Ja, jeg er kunde i Tryg fra før
+	  			    </label>
+	  			  </div>
+	  				<button class="primary-btn">
+	  					Send inn svar
+	  				</button>
+	        </div>
+		  	</form>
 			</div>
-		</div>
-		<div class="row">
-			<div class="small-10 medium-3 large-2 small-centered expanded columns">
-				<button class="button expanded" id="submit">Send inn</button></div>
-		</div>
-  -->
-  <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-	<!--
-  <script src="js/ga.js" charset="utf-8"></script>
-	<script src="js/index.js" charset="utf-8"></script>
-	<script src="js/dataobject.js" charset="utf-8"></script>
-  -->
-  <script src="js/hotspots.js" charset="utf-8"></script>
+		</section>
+
+		<section id="scrollDownAnchor" data-animatewheninview>
+      <div>
+  			<img src="" />
+  			<h1>Kontakt</h1>
+  			<h3>
+  				Er det noe du lurer på, kan du ringe oss på <a href="tel:04040">04040</a>, eller sende oss en <a href="mailto:mail@post.no">e-post</a>.
+  			</h3>
+  			<h3>
+  				Eller, legg igjen ditt telefonnummer så kontakter vi deg så snart vi kan.
+  			</h3>
+  			<form>
+  				<div class="form-group">
+  			    <label for="callme-phone">Ring på på telefon</label>
+  			    <input type="phone" class="form-control" id="callme-phone" placeholder="Ditt telefonnummer">
+  			  </div>
+  				<button class="primary-btn" id="callme-submit">
+  					Ring meg opp
+  				</button>
+          <p>
+            <a href="http://www.tryg.no/tryg55.pdf" target="_blank">Les fullstendige vilkår her (PDF)</a>
+          </p>
+  			</form>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h1>Hvor mye koster det?</h1>
+  			<table>
+          <tr>
+            <td>
+              55 år
+            </td>
+            <td>
+              217,- pr mnd
+            </td>
+          </tr>
+          <tr>
+            <td>
+              60 år
+            </td>
+            <td>
+              ???,- pr mnd
+            </td>
+          </tr>
+          <tr>
+            <td>
+              65 år
+            </td>
+            <td>
+              350,- pr mnd
+            </td>
+          </tr>
+  			</table>
+        <button class="primary-btn">
+          <i class="material-icons">arrow_right</i>Beregn din pris (10 % nettrabatt)
+        </button>
+      </div>
+		</section>
+		<section class="grey">
+			<div class="to-the-top" data-scroller="#firstElement">
+				<i class="material-icons">arrow_upward</i>
+			</div>
+      <div>Tilbake til toppen</div>
+		</section>
+
+    <script>
+      if (location.search.split('s=')[1]) {
+      } else {
+        var floatElement = document.getElementById('floater');
+        floatElement.parentNode.removeChild(floatElement);
+      }
+      document.getElementById('firstElement').className = '';
+    </script>
+	<!-- placeholder for suksess/kvitteringer -->
+	  <script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous"></script>
+    <script src="js/animatewheninview.js"></script>
+    <script src="js/ga.js" charset="utf-8"></script>
+		<script src="js/index.js" charset="utf-8"></script>
+		<script src="js/dataobject.js" charset="utf-8"></script>
+    <script src="js/hotspots.js" charset="utf-8"></script>
+		<script src="js/uuid.js" charset="utf-8"></script>
+		<script src="js/send.js" charset="utf-8"></script>
+		<script type="text/javascript">
+		(tryg.msg.uuid = UUID.generate());
+
+		</script>
 	</body>
 </html>
