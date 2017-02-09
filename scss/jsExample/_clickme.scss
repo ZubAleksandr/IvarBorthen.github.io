@@ -1,0 +1,19 @@
+/* scss/jsExample/_clickme.scss */
+
+.click{
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    transition: left .25s;
+    background: #ccf9bf;
+    padding: 20px 40px;
+    display: inline-block;
+    &:hover {
+        background: darken(#ccf9bf, 10%);
+    }
+}
+
+.clickAnimate{
+    left: 80%;
+}
+

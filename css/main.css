@@ -1,0 +1,46 @@
+/* scss/readme/_settings.scss */
+/* scss/readme/_sidebars.scss */
+/* scss/modules/_box.scss */
+.box {
+  background: green;
+  padding: 50px;
+  width: auto;
+  height: 150px; }
+
+/* scss/modules/_Button.scss */
+.button {
+  padding: 40px;
+  background: blue;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 5px; }
+  .button:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100px;
+    background: red; }
+  .button:last-child:after {
+    display: none; }
+
+/* scss/jsExample/_clickme.scss */
+.click {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  transition: left .25s;
+  background: #ccf9bf;
+  padding: 20px 40px;
+  display: inline-block; }
+  .click:hover {
+    background: #a7f590; }
+
+.clickAnimate {
+  left: 80%; }
+
+/* scss/organism/_calculator.scss */
+.leasing {
+  padding: 20px;
+  background: blue;
+  color: #fff; }

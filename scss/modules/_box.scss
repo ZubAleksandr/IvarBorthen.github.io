@@ -1,0 +1,10 @@
+/* scss/modules/_box.scss */
+
+$boxColor: green;
+
+.box{
+    background: $boxColor;
+    padding: 50px;
+    width: auto;
+    height: 150px;
+}

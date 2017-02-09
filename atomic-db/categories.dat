@@ -1,0 +1,22 @@
+[
+    {
+        "category": "modules",
+        "order": 1
+    },
+    {
+        "category": "readme",
+        "order": 0
+    },
+    {
+        "category": "jsExample",
+        "order": 2
+    },
+    {
+        "category": "navigation",
+        "order": 4
+    },
+    {
+        "category": "organism",
+        "order": 5
+    }
+]
