@@ -1,0 +1,68 @@
+.marathons path {
+  position: absolute;
+}
+.marathons {
+  width: 799px;
+  height: 416px;
+  background: url('bergen.png') no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.marathons svg {
+  transform: translate(19px, 92px);
+}
+.marathons .counter {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  z-index: 9999;
+}
+.marathons .counter h2 {
+  font-size: 48px;
+  margin-top: 0;
+}
+.runpath {
+  stroke-dasharray: 0;
+  stroke-dashoffset: 0;
+}
+.runpath.animate {
+  animation-name: marathonPathAnimation;
+  animation-fill-mode: forwards;
+}
+
+@keyframes marathonPathAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes marathonPathAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-moz-keyframes marathonPathAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-ms-keyframes marathonPathAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-o-keyframes marathonPathAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
