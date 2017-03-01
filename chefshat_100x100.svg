@@ -21,8 +21,8 @@
     <g id="oppskrifter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard-2" transform="translate(-417.000000, -45.000000)">
             <g id="Group-4" transform="translate(411.000000, 30.000000)">
-                <rect id="Rectangle-3" x="0" y="0" width="100" height="100"></rect>
-                <use id="Rectangle-3" stroke="#333333" mask="url(#mask-2)" stroke-width="12" xlink:href="#path-1"></use>
+                <rect id="Rectangle-3" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="100" height="100"></rect>
+                <use id="Rectangle-3" stroke="#333333" mask="url(#mask-2)" stroke-width="12" fill="#FFFFFF" xlink:href="#path-1"></use>
                 <use id="Combined-Shape" stroke="#333333" mask="url(#mask-4)" stroke-width="10" fill="#FFFFFF" xlink:href="#path-3"></use>
                 <g id="Rectangle-2" transform="translate(24.057971, 51.727273)">
                     <mask id="mask-6" fill="white">

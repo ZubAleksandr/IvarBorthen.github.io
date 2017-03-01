@@ -12,7 +12,7 @@
         <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44.5" height="25.8181818" fill="white">
             <use xlink:href="#path-3"></use>
         </mask>
-        <rect id="path-5" x="0" y="1.13686838e-13" width="26.442029" height="15.8136364"></rect>
+        <rect id="path-5" x="0" y="0" width="26.442029" height="15.8136364"></rect>
         <rect id="path-7" x="3.22463768" y="-10.65" width="19.6702899" height="19.6863636" rx="9.83514493"></rect>
         <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.6702899" height="19.6863636" fill="white">
             <use xlink:href="#path-7"></use>
@@ -21,8 +21,8 @@
     <g id="oppskrifter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard-2" transform="translate(-543.000000, -69.000000)">
             <g id="Group-4" transform="translate(540.000000, 62.000000)">
-                <rect id="Rectangle-3" x="0" y="0" width="50" height="50"></rect>
-                <use id="Rectangle-3" stroke="#333333" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                <rect id="Rectangle-3" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="50" height="50"></rect>
+                <use id="Rectangle-3" stroke="#333333" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
                 <use id="Combined-Shape" stroke="#333333" mask="url(#mask-4)" stroke-width="5" fill="#FFFFFF" xlink:href="#path-3"></use>
                 <g id="Rectangle-2" transform="translate(12.028986, 25.863636)">
                     <mask id="mask-6" fill="white">
