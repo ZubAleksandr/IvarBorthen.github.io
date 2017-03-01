@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="36px" viewBox="0 0 45 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="13.9637681" y="29.4454545" width="22.5724638" height="13.5545455"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.5724638" height="13.5545455" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M15.1725451,13.9107269 C14.4233584,13.7284144 13.6405576,13.6318182 12.8351449,13.6318182 C7.40215007,13.6318182 3,18.0387608 3,23.475 C3,28.9246805 7.40334437,33.3181818 12.8351449,33.3181818 C16.2493944,33.3181818 19.25654,31.5777809 21.0198892,28.9352453 C22.3239614,29.4721147 23.7524245,29.7681818 25.25,29.7681818 C26.7466063,29.7681818 28.1740597,29.4725476 29.4772839,28.936459 C31.2404492,31.5810296 34.2493308,33.3181818 37.6648551,33.3181818 C43.0978499,33.3181818 47.5,28.9112392 47.5,23.475 C47.5,18.0253195 43.0966556,13.6318182 37.6648551,13.6318182 C36.8595202,13.6318182 36.0768352,13.7286486 35.3277805,13.9113086 C33.5524924,10.1228384 29.7073775,7.5 25.25,7.5 C20.7921006,7.5 16.9477596,10.1230108 15.1725451,13.9107269 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="44.5" height="25.8181818" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="1.13686838e-13" width="26.442029" height="15.8136364"></rect>
+        <rect id="path-7" x="3.22463768" y="-10.65" width="19.6702899" height="19.6863636" rx="9.83514493"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.6702899" height="19.6863636" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="oppskrifter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-543.000000, -69.000000)">
+            <g id="Group-4" transform="translate(540.000000, 62.000000)">
+                <rect id="Rectangle-3" x="0" y="0" width="50" height="50"></rect>
+                <use id="Rectangle-3" stroke="#333333" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                <use id="Combined-Shape" stroke="#333333" mask="url(#mask-4)" stroke-width="5" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <g id="Rectangle-2" transform="translate(12.028986, 25.863636)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g mask="url(#mask-6)" stroke-width="5" stroke="#333333" fill="#FFFFFF">
+                        <use mask="url(#mask-8)" xlink:href="#path-7"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
