@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="45px" height="36px" viewBox="0 0 45 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 4</title>
-    <desc>Created with Sketch.</desc>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <rect id="path-1" x="13.9637681" y="29.4454545" width="22.5724638" height="13.5545455"></rect>
         <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22.5724638" height="13.5545455" fill="white">
@@ -19,20 +15,16 @@
         </mask>
     </defs>
     <g id="oppskrifter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-2" transform="translate(-543.000000, -69.000000)">
-            <g id="Group-4" transform="translate(540.000000, 62.000000)">
-                <rect id="Rectangle-3" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="50" height="50"></rect>
-                <use id="Rectangle-3" stroke="#333333" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
-                <use id="Combined-Shape" stroke="#333333" mask="url(#mask-4)" stroke-width="5" fill="#FFFFFF" xlink:href="#path-3"></use>
-                <g id="Rectangle-2" transform="translate(12.028986, 25.863636)">
-                    <mask id="mask-6" fill="white">
-                        <use xlink:href="#path-5"></use>
-                    </mask>
-                    <g id="Mask"></g>
-                    <g mask="url(#mask-6)" stroke-width="5" stroke="#333333" fill="#FFFFFF">
-                        <use mask="url(#mask-8)" xlink:href="#path-7"></use>
-                    </g>
-                </g>
+        <rect id="Rectangle-3" fill="none" x="0" y="0" width="50" height="50"></rect>
+        <use id="Rectangle-3" stroke="#333333" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
+        <use id="Combined-Shape" stroke="#333333" mask="url(#mask-4)" stroke-width="5" fill="#FFFFFF" xlink:href="#path-3"></use>
+        <g id="Rectangle-2" transform="translate(12.028986, 25.863636)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-6)" stroke-width="5" stroke="#333333" fill="#FFFFFF">
+                <use mask="url(#mask-8)" xlink:href="#path-7"></use>
             </g>
         </g>
     </g>
