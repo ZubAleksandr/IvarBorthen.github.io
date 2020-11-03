@@ -1,0 +1,167 @@
+
+.conteiner{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    border-top: 33px;
+}
+.txt{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 500px;
+    margin-right: 195px;
+    border-top: 33px;
+}
+.txt:hover{
+    background: #643a79;
+}
+.logo{
+    position: left;
+    margin-left: 212px;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+    font-size: 200%;
+    tab-size: 8;
+    text-align: center;
+}
+.button{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.button_text{
+    margin-top: 11px;
+    color: white;
+    position: absolute;
+}
+.page_1{
+    background-color: #87509c;
+    height: 596px;
+}
+body{
+    margin: 0px;
+}
+.page_2{
+    background-color: #17c2a4;
+    height: 596px;
+}
+.text_2{
+    display: flex;
+    color: white;
+    font-size: 28px;
+   justify-content: center;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}
+.txt_2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:15px;
+}
+.flag{
+    display: flex;
+}
+.part1{
+    position: relative;
+}
+.part3{
+    position: absolute;
+    margin-left: 9px;
+    margin-top: 4px;
+}
+.part4{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.part2{
+    position: absolute;
+    margin-top: 67px;
+    margin-left: 57px;
+}
+.pen{
+    display: flex;
+    position: relative;
+}
+.pen_1{
+    position: relative;
+    margin-top: 92px;
+    margin-left: 5px;
+    z-index: 1;
+}
+.pen_2{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 5px;
+    z-index: 2;
+}
+.pen_3{
+    position:absolute;
+    margin-left: 38px;
+    margin-top: 12px;
+    z-index: 3;
+}
+.pen_4{
+   position: absolute;
+   margin-left: 42px;
+   z-index: 1;
+}
+.geer{
+    display: flex;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+.rocket{
+    display: flex;
+}
+.rock_3{
+    position: relative;
+    z-index: 1;
+    margin-right: 50px;
+}
+.rock_1{
+    z-index: 3;
+    position: absolute;
+    margin-left: 34px;
+    margin-top: 33px;
+}
+.rock_2{
+    position: absolute;
+    z-index: 2;
+    margin-left: 30px;
+    margin-top: 29px;
+}
+.rock_4{
+    position: absolute;
+    margin-top: 96px;
+}
+.rock_5{
+    position: absolute;
+    margin-top: 96px;
+}
+.rock_6{
+    position: absolute;
+    margin-right: 35px;
+    z-index: 3;
+}
+.rock_7{
+    position: absolute;
+    z-index: ;
+}
